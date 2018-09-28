@@ -1,7 +1,7 @@
 # jirafe
 Chrome extension to create a jira branch of a feature
 
-##The step to install the extension on your local machine.
+### The step to install the extension on your local machine.
 
 1. Navigate to chrome://extensions in your browser. 
 2. Toogle Developer Mode on
