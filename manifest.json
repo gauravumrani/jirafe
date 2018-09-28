@@ -1,0 +1,13 @@
+{
+  "name": "Jirafe",
+  "version": "1.0",
+  "description": "Create Jira Feature branch easily",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["scripts/jquery.min.js","scripts/index.js"]
+    }
+  ],
+  "manifest_version": 2
+}
