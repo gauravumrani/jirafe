@@ -1,0 +1,31 @@
+.copyDiv {
+    padding: 10px;
+    width: max-content;
+    background: #f7f7f7;
+    position: fixed;
+    right: 0;
+    z-index: 9999;
+    left: 0;
+    top: 60px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px #bbb7b7;
+    margin: auto;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation: animateElement linear .5s;
+    animation-iteration-count: 1;
+}
+@keyframes animateElement{
+    0% {
+        opacity:0;
+        transform:  translate(0px,10px);
+    }
+    100% {
+        opacity:1;
+        transform:  translate(0px,0px);
+    }
+}

@@ -6,6 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.atlassian.net/*"],
+      "css":["styles/style.css"],
       "js": ["scripts/jquery.min.js","scripts/index.js"]
     }
   ],
