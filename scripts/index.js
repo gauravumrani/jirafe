@@ -1,5 +1,4 @@
 window.onload = function() {
-    console.log('loaded');
     let featureName;
     $('.ghx-issue').click(function(){
         hideCopyDiv();
@@ -12,7 +11,7 @@ window.onload = function() {
         setTimeout(function () {
             $('body').after("<div class='copyDiv'>Copy Feature Name</div>");
         }, 800);
-        hide in 10 seconds
+        //hide in 10 seconds
         var hideDiv = setTimeout(function () {
             hideCopyDiv();
         }, 10000);
