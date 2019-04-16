@@ -1,6 +1,7 @@
 window.onload = function() {
     let featureName;
-    $('.ghx-issue').click(function(){
+    $(document).on('click', '.ghx-issue' ,function(){
+        console.log('clicked');
         hideCopyDiv();
         clearInterval(hideDiv);
         let summary = $(this).find(".ghx-summary").text();
