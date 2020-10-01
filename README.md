@@ -13,6 +13,8 @@ Chrome extension to create a jira branch of a feature
 
 1. Go to Jira
 2. Choose any task, and inside modal you will see **Copy Feature Name** Button
+3. You will see branch name in prompt box
+4. Copy the branch name and paste in terminal
 
 ## Contributing
 
